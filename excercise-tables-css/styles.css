@@ -4,12 +4,12 @@ h1 {
 }
 
 h2 {
-  color: hsl(170, 6%, 81%);
+  color: hsl(168, 5%, 60%);
   font-size: 1rem;
 }
 
 table {
-  width: 100vw;
+  width: 90%;
   border-spacing: 0;
 }
 
@@ -34,6 +34,10 @@ th {
   font-weight: bold;
 }
 
-tfoot.tr {
-  border-top: 2px solid hsl(345, 100%, 32%)
+.top-border {
+  border-top: 2px solid black;
+}
+
+.width {
+  width: 250px;
 }

@@ -1,0 +1,49 @@
+h1, h2, p, button {
+  font-family: "Helvetica Neue", "Helvetica"
+}
+
+.container-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ div > * {
+  margin: auto;
+ }
+
+ h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 2rem;
+ }
+
+ h2 {
+  padding: 1rem;
+ }
+
+ .email-form {
+  margin: 1rem auto;
+  width: 60vw;
+  height: 2rem;
+
+ }
+ 
+.email {
+  width: 100%;
+  border: none;
+  height: 100%;
+}
+
+.btn {
+  width: 65vw;
+  color: #fff;
+  background-color: black
+}
+
+.container {
+  padding: 2rem
+}
+
+.continue-btn {
+  width: 50vw;
+  margin: 1rem auto;}
