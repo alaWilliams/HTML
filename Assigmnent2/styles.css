@@ -1,0 +1,65 @@
+body {
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+}
+
+.logo {
+  width: 50px;
+  height: 80px;
+}
+
+.navbar {
+  border: 1px solid red;
+  display: flex;
+  height: 10vh;
+}
+
+.navbar > * {
+  width: 50%
+}
+
+.navbar-left, .menu-list {
+  display: flex;
+}
+
+.menu-item {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-nav {
+  display: flex;
+}
+
+.img-container {
+  display: flex;
+}
+
+.header {
+  width: 50%;
+  font-weight: 500;
+}
+
+.bolder {
+  font-weight: 700
+}
+
+.main-section {
+  background-color: hsl(88, 100%, 95%);
+  width: 100vw;
+  height: 80vh;
+}
+
+.footer {
+  background-color: hsl(75, 98%, 80%);
+  width: 100vw;
+  height: 10vh;;
+
+}
+
+.main-section, .navbar {
+  padding-left: 10rem;
+}
