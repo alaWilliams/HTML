@@ -2,67 +2,100 @@
 <html lang="en">
  <head>
   <title>Figma</title>
-  <link rel="stylesheet" href="./styles.css" type="text/css"></link>
+  <link rel="stylesheet" href="./styles.css" type="text/css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
  </head>
 
  <body>
 
 
+<header>
+  <nav class="navbar">
+    <div class="navbar-left">
+      <img src="/Assigmnent2/images/figma.svg" class="logo">
+      <ul class="menu-list">
+        <li class="menu-item arrow-down">
+          <div class="nav-item">Products</div>
+          <img src="/Assigmnent2/images/arrow-down.svg">
+        </li>
   
-<div class="navbar">
-  <nav class="navbar-left">
-    <img src="/Assigmnent2/images/figma.svg" class="logo">
-    <ul class="menu-list">
-      <li class="menu-item">Products<img src="/Assigmnent2/images/arrow-down.svg" class="arrow-down"></li>
-      <li class="menu-item">Solutions<img src="/Assigmnent2/images/arrow-down.svg"class="arrow-down"></li>
-      <li class="menu-item">Community<img src="/Assigmnent2/images/arrow-down.svg"class="arrow-down"></li>
-      <li class="menu-item"class="arrow-down">Resources<img src="/Assigmnent2/images/arrow-down.svg"class="arrow-down"></li>
-      <li class="menu-item">Pricing</li>
-    </ul>
+        <li class="menu-item arrow-down">
+          <div class="nav-item">Solutions</div>
+          <img src="/Assigmnent2/images/arrow-down.svg">
+        </li>
+  
+        <li class="menu-item arrow-down">
+          <div class="nav-item">Community</div>
+          <img src="/Assigmnent2/images/arrow-down.svg">
+        </li>
+  
+        <li class="menu-item arrow-down">
+          <div class="nav-item">Resources</div>
+          <img src="/Assigmnent2/images/arrow-down.svg">
+        </li>
+  
+        <li class="menu-item">
+          <div class="nav-item">Pricing</div>
+        </li>
+      </ul>
+    </div>
+    <div class="navbar-right">
+        <a href="#" class="contact">Contact sales</a>
+        <button class="btn log-in">Log in</button>
+        <button class="btn free">Get started for free</button>
+    </div>
+    
+    
   </nav>
-  <div class="navbar-right">
-    <a href="#">Contact sales</a>
-    <button class="btn log-in">Log in</button>
-    <button class="btn free">Get started for free</button>
-  </div>
-</div>
+</header>
+
 
 <section class="main-section">
   <h1 class="header"><span class="bolder">Bring design and dev together.</span> Easily translate designs into code with a workflow built for developers.</h1>
 
   <div class="image-nav">
     <div class="numbers">1/4</div>
-    <img src="/Assigmnent2/images/arrow-back.svg">
-    <img src="/Assigmnent2/images/arrow-forward.svg">
+    <div class="arrows">
+      <div class="circle lighten">
+        <img src="/Assigmnent2/images/arrow-back.svg">
+      </div>
+    
+      <div class="circle">
+        <img src="/Assigmnent2/images/arrow-forward.svg">
+      </div>
+      
+    </div>
   </div>
 
   <div class="img-container">
     <div class="container">
-      <img src="/Assigmnent2/images/img1.png">
+      <img src="/Assigmnent2/images/img1.png" class="image">
       <div class="description"><span class="bolder">Design systems that scale.</span> Streamline the product development process with a design system that's aligned across design and code.
       </div>
-      <a href="#">Learn about design systems</a>
+      <a href="#" class="link">Learn about design systems</a>
     </div>
 
     <div class="container">
-      <img src="/Assigmnent2/images/img2.png">
+      <img src="/Assigmnent2/images/img2.png" class="image">
       <div class="description"><span class="bolder">Keep design and code connected.</span> Bring your component code into Dev Mode so developers get the right code, every time.
       </div>
-      <a href="#">Learn about Dev Mode</a>
+      <a href="#" class="link">Learn about Dev Mode</a>
     </div>
 
     <div class="container">
-      <img src="/Assigmnent2/images/img3.png">
+      <img src="/Assigmnent2/images/img3.png" class="image">
       <div class="description"><span class="bolder">Focus on the details in Focus View.</span> Select and inspect a specific design in Dev Mode, then dig into the details in Focus View so you know exactly what to build.
       </div>
-      <a href="#"></a>
+     
     </div>
   </div>
 </section>
 
-<div class="footer">
+  <div class="footer">
 
-</div>
- </body>
+  </div>
+  </body>
 </html>
 
